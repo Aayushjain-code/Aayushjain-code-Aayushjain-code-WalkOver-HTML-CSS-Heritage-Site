@@ -82,6 +82,10 @@ h1.title {
 .navbar .navbar_items ul li a {
 	color: var(--black);
 	font-weight: 800;
+	background-color: rgba(255, 255, 255, 0.479);
+	padding: 3px;
+	margin:12px;
+	border-radius: 25%;
 }
 
 /* Banner Image */
