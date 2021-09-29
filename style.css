@@ -199,12 +199,22 @@ h1.title {
 }
 
 .contact button {
-	padding: 0.5rem 1rem 0.5rem 1rem;
+	padding: 0.5rem 1.5rem 0.5rem 1.5rem;
 	margin: 1em 0 1em 0;
-	color: var(--blue);
+	color: black;
 	box-sizing: border-box;
 	cursor: pointer;
+	border: none;
+	background-color: #8b8b8b;
+
 }
+
+.contact button:hover{
+	background-color: black;
+	color: #fff;
+	transition: 0.5s;
+}
+
 
 /* footer */
 .footer {
@@ -221,15 +231,15 @@ h1.title {
 /* arrow */
 .arrow {
 	position: fixed;
-	bottom: 25px;
-	right: 25px;
+	bottom: 15px;
+	right: 10px;
 	width: 40px;
 	height: 40px;
 	line-height: 50px;
 	text-align: center;
 	cursor: pointer;
 	background: var(--blue);
-	border-radius: 50%;
+
 }
 
 .arrow img {
